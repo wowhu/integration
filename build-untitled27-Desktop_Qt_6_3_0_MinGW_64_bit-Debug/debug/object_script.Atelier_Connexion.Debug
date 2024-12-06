@@ -1,0 +1,13 @@
+debug/connection.o
+debug/employee.o
+debug/logindialog.o
+debug/main.o
+debug/employew.o
+debug/qrc_LPO.o
+debug/qrc_img.o
+debug/qrc_lok.o
+debug/qrc_momo.o
+debug/qrc_opl.o
+debug/qrc_plo.o
+debug/moc_employew.o
+debug/moc_logindialog.o
