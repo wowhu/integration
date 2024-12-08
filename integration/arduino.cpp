@@ -84,4 +84,16 @@ QString Arduino::read_response() {
     return QString();
 }
 
+void Arduino::writeToArduino( QByteArray d) {
+    if (serial->isWritable()) {
+        serial->write(d);
+    }else{
+    qDebug() << "Failed to write to Arduino.";
+}
+}
 
+
+
+QString Arduino::getArduinoPortName() {
+    return arduino_port_name;
+}

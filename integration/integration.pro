@@ -26,7 +26,8 @@ CONFIG += c++11
 SOURCES += \
     arduino.cpp \
     clientw.cpp \
-    commandew.cpp \
+    commandes.cpp \
+    commandeswindow.cpp \
     connection.cpp \
     employee.cpp \
     fournisseur.cpp \
@@ -40,7 +41,8 @@ SOURCES += \
 HEADERS += \
     arduino.h \
     clientw.h \
-    commandew.h \
+    commandes.h \
+    commandeswindow.h \
     connection.h \
     employee.h \
     employew.h \
@@ -52,7 +54,7 @@ HEADERS += \
 
 FORMS += \
     clientw.ui \
-    commandew.ui \
+    commandeswindow.ui \
     employew.ui \
     fournisseurw.ui \
     logindialog.ui \

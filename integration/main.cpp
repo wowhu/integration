@@ -1,7 +1,7 @@
 #include "logindialog.h"
 #include "employew.h"
 #include "clientw.h"
-#include "commandew.h"
+#include "commandeswindow.h"
 #include "produitw.h"
 #include "fournisseurw.h"
 #include "connection.h"
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     LoginDialog loginDialog;
     Employew employew;
     clientw clientw;
-    commandew commandew;
+    CommandesWindow commandew;
     produitw produitw;
     fournisseurw fournisseurw;
 

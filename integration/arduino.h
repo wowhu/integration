@@ -16,6 +16,10 @@ public:     //méthodes de la classe Arduino
     QString getarduino_port_name();
     void request_temperature_humidity();
     QString read_response();
+    //hajer
+    void writeToArduino( QByteArray );
+    QString getArduinoPortName();
+
 private:
 QSerialPort * serial; //Cet objet rassemble des informations (vitesse, bits de données, etc.)
 //et des fonctions (envoi, lecture de réception,…) sur ce qu’est une voie série pour Arduino.
